@@ -9,7 +9,8 @@ $ bee pack -be GOOS=windows -be GOARCH=386
 ```
   $ git init
   $ git add -A
-  $ git  commit -m "first commit"
+  $ git commit -m "first commit"
   $ git remote add origin https://github.com/ujnzxw/go-wallpaper.git
+  $ git pull origin master -m "first pull"
   $ git push origin master
 ```
